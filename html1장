@@ -1,1 +1,17 @@
 5월 4일 html 첫날입니다.
+
+html = Hyper Text Mark up Language 의 약자이다.
+HyperText는 문서를 서로 연결해 주는 링크 임
+
+  <!DOCTYPE html>
+  <html lang="ko>
+    <head>
+      <meta charset="UTF-8">
+      <title>HTML기본문서</title>
+    </head>
+    <body>
+      <h1>프런트엔드 웹 개발</h1>
+    </body>
+    
+이것이 html의 기본 형식입니다.
+    
