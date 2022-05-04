@@ -1,17 +1,19 @@
 5월 4일 html 첫날입니다.
-
+# 1.HMTL구조파악
 html = Hyper Text Mark up Language 의 약자이다.
 HyperText는 문서를 서로 연결해 주는 링크 임
 
-  <!DOCTYPE html>
-  <html lang="ko>
-    <head>
+  <!DOCTYPE html>  :HTML5문서임을 알림
+  <html lang="ko> : 웹문서의 시작및 끝
+    <head> : 웹 브라우저가 해석하는데 필요한 정보
       <meta charset="UTF-8">
       <title>HTML기본문서</title>
     </head>
-    <body>
+    <body> : 실제 나타는 내용
       <h1>프런트엔드 웹 개발</h1>
     </body>
+  </html>
     
 이것이 html의 기본 형식입니다.
+
     
