@@ -1,0 +1,28 @@
+1.표만들기
+표의 구성: 행 열 셀
+
+[표를 만드는 태그]
+  <table>
+    <caption>표제목</caption>
+  </table>
+
+1)표 구성 태그
+<tr></tr>: 행만들기 태그
+<td></td>: 행 안에 들어갈 정보 입력
+<th></th>: 행 안에 들어갈 제목정보 입력(td와 유사하나 더 진하게 표기된다.)
+
+2)표의 구조 지정 태그
+<thead></thead>: 제목 구조
+<tbody></tbody>: 본문 구조
+<tfoot></tfoot>: 요약 구조
+
+3)합치기 태그
+<td rowspan="합칠셀의 개수">셀의 내용</td>: 행합치기
+<td colspan="합칠셀의 개수">셀의 내용</td>: 열합치기
+
+4)열 묶기
+<colgroup>
+  <col> :기본형식
+  <col style="background-color:#----;">: 배경색깔설정
+  <col span="숫자" style "width:숫자px;">: "숫자"만큼 너비를 "숫자"만큼 설정
+</colgroup>
