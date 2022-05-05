@@ -1,0 +1,40 @@
+5월5일
+
+1.이미지 삽입하기
+이미지 삽입태그
+<img src="이미지 파일 경로" alt="대체용 텍스트">
+웹에서 사용하는 대표적인 이미지 파일 형식 : GIF , JPG/JPEG , PNG
+웹에서 사용하는 대표적인 비디오 파일 형식 : mp4 , webm
+웹에서 사용하는 대표적인 오디오 파일 형식 : mp3 , m4a
+
+src에는 이미지 파일의 경로나 이미지 주소를 붙여넣으면 된다
+alt는 꼭써주자
+
+2.이미지의 크기조절 
+width="%": 퍼센트 만큼 이미지 크기 조절
+height="": px만큼을 높이로 설정함
+
+
+3.파일 삽입하기
+<object width="" height="" data="파일"></object>
+오브젝트 태그를 써도 되고 임베드 태그를 써도 된다
+
+3.오디오 삽입하기
+<embed src="파일경로" width="" height="">
+<audio src="오디오파일경로" controls></audio>
+
+4.비디오 삽입
+<video src="비디오파일경로" controls></video>
+(controls는 음악이나 비디오 재생을 조절할수있는 콘트롤바를 생성하게한다)
+
+5.오디오와 비디오태그의 속성
+autoplay : 자동실행
+loop : 반복재생
+muted : 음소거
+preload="auto , metadata , none": 로딩할 방식
+poster="파일이름" : 비디오 재생전 표시될 포스터 이미지
+
+6.하이퍼 링크 삽입
+<a href="삽입할 링크">제목이나 이미지</a>
+*링크를 새탭에서 열어주는 target 태그*
+target="-blank"를 링크 옆에 
